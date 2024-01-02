@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+
+        #main{
+            
+            width: 500px;
+            margin: auto;
+            padding: 20px;
+        }
+       
+        #middle{
+            text-align: center;
+            content: 398px, 479px;
+            padding: 10px;
+            border: 1px solid gainsboro;
+            border-radius: 3px;
+            
+        }
+
+        #he{
+            margin: 20px;
+        }
+        
+        #input{           
+            margin: auto;
+            margin-bottom: 10px;
+        }
+        
+        .ipt{
+            border: 1px solid gainsboro;
+            text-align: left;
+            text-indent: 5px;
+            width: 300px;
+            padding: 0px;
+            border-radius: 3px;
+            height: 50px;                       
+        }
+
+
+        #logbt{
+            background-color: rgb(255,0,56);
+            width: 300px;
+            padding: 0px;
+            border-radius: 3px;
+            height: 50px;
+            border-style: none;
+            font-size: medium;
+            color: white;
+
+        }
+
+        #logu{
+            text-align: left;
+            text-indent: 85px;
+            font-size: 13px;
+            
+
+        }
+
+        .lin{
+            display: flex;
+            flex-basis: 100%;
+            align-items: center;
+            color: rgba(0, 0, 0, 0.35);
+            font-size: 12px;
+            margin: 8px 0px;
+        }
+        .lin::before,
+        .lin::after{
+            content: "";
+            flex-grow: 1;
+            background: rgba(0, 0, 0, 0.35);
+            height: 1px;
+            font-size: 0px;
+            line-height: 0px;
+            margin: 0px 16px;
+        }
+
+        #middle2{
+            text-align: center;
+        }
+
+        .joinT{
+            font-size: 12px;
+            text-decoration: none;
+            color: black;
+            margin: auto;
+
+        }
+        
+        .joinT:link{
+            color:black;
+        }
+        .joinT:visited{
+            color:black;
+        }
+        .z{
+            color:gainsboro;         
+        }
+
+        #bottom{
+            text-align: center;
+        }
+
+        #bann{
+            margin: auto;
+        }
+
+       #cop{
+            text-align: center;        
+            flex-basis: 100%;
+            align-items: center;
+            color: rgba(0, 0, 0, 0.35);
+            font-size: 12px;
+            margin: 8px 0px;
+       }
+    </style>
+
+
+</head>
+<body>
+  
+    <div id="main">
+        <div id="top">
+            <h1></h1>
+        </div>
+
+        <div id="middle">
+
+            <div id="he">
+                <img src="img/11st.svg" />
+            </div>
+            
+            <div id="input">
+                <input type="text" class="ipt" placeholder="아이디 입력" />
+                <br/>
+                <input type="password" class="ipt" placeholder="비밀번호 8자~20자" />
+            </div>
+
+        
+            <div id="btn">
+                <button type="button" id="logbt" > <b>로그인</b> </button>
+                <br/>
+            </div>
+
+            <div id="logu">
+                <input type="radio" id="lou"/> 로그인 상태 유지
+            </div>
+            
+            <div class="lin"> 또는 SNS 아이디로 로그인 </div>
+                <br/>
+                
+                <div class="ico">
+                    <a herf="#"> <img src="img/sns-kakao.svg"/></a>
+                    <img src="img/sns-naver.svg"/>
+                    <img src="img/sns-tid.svg"/>
+                    <img src="img/sns-apple.svg"/>
+                    <img src="img/sns-payco.svg"/>
+                    <img src="img/sns-facebook.svg"/>
+                    <img src="img/sns-phone.svg"/>
+                </div>
+                <br/>
+                <br/>
+                
+                </div>
+
+            </div>
+
+        <div id="middle2">
+    
+            <div id="joi">
+                <a href="#" class="joinT"> 아이디 찾기 </a>
+                <a class="z">·</a>
+                <a href="#" class="joinT"> 비밀번호찾기 </a>
+                <a class="z">·</a>
+                <a href="#" class="joinT"> 비회원 주문조회 </a>
+                <a class="z">·</a>
+                <a href="#" class="joinT"> 회원가입 </a>
+            </div>
+
+        </div>
+        
+        <div id="bottom">
+            
+                        
+            <div id="bann">
+                <img src="img/banner.png" style="width:500px; height:80px;"/>
+            <br/>
+
+            <div id="cop">
+                Copyright © 2019 11Street Co.,Ltd. All Rights Reserved.
+            </div>
+        </div>
+        
+        
+
+    </div>
+    
+</body>
+</html>

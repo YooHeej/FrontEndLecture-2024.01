@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <form>
+  <fieldset>
+    <legend>회원가입</legend>
+    <br>
+        1. 이름  <input type="text" placeholder="이름">
+    
+    </br>
+        2. 성별  <input type="radio" name="gender" id="gender1" />
+                    <label for="gender1"> 남성</label>
+                  <input type="radio" name="gender" id="gender2" />
+                    <label for="gender2"> 여성</label>
+    <br>
+        3. 직업  <select id="prod1">
+                    <option value="special_1" selected>프로그래머</option>
+                    <option value="special_2">학생</option>
+                    <option value="special_3">선생</option>
+        </select>
+    </br>
+        4. 취미  <label> <input type="checkbox" name="chk" /> 잠자기 </label>
+                  <label> <input type="checkbox" name="chk" /> 먹기</label>
+                  <label> <input type="checkbox" name="chk" /> 숨쉬기</label>
+                  <label> <input type="checkbox" name="chk" /> 멍때리기</label>
+                
+    <br>
+        5. 애인  <input type="radio" name="answer" id="yes" />
+                    <label for="yes"> 있다</label>
+                  <input type="radio" name="answer" id="no" />
+                    <label for="no"> 없다</label>
+    <br>
+        6. <input type="submit" value="확인" />
+           <input type="reset" value="취소 " />
+    <br>
+        7. <textarea cols="40" rows="7" ></textarea>
+        <br/>
+        8. 빈값  <input type="text" required>
+        <br/>
+        9. 사이즈  <input type="text" size="90" />
+        <br/>
+        10. 초기값  <input type="text" value="초기값" />
+        <br/>
+        11. 초기값 변경 X  <input type="text" id="placeholder" value="초기값" readonly>
+        <br/>
+        12. 입력 한계  <input type="text" maxlength="9">
+        <br/>
+        13. 미사용  <input type="text" disabled>
+                     
+                                   
+  </fieldset>
+ </form>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>로그인 정보</legend>
+             <ol>
+                <li>아이디 <input type="text"/>
+                </li>
+                <li>비밀번호 <input type="password" id="paw1"/>
+                </li>
+                <li>비밀번호 확인 <input type="password" id="paw2"/>
+
+                </li>
+                <li>회원 등급 <input type="text" value="준회원" readonly/>
+                </li>
+             </ol>
+        </fieldset>
+        <fieldset>
+            <legend>개인 정보</legend>
+            <ol>
+                <li>이름 <input type="text" placeholder="5자 미만 공백없이"/>
+                </li>
+                <li>메일 주소 <input type="email" placeholder="abcd@domain.com"/>
+                </li>
+                <li>연락처 <input type="text" pattern="(010)-\d{4}-d{4}"/>
+                </li>
+                <li>생일 <input type="date" value="연도-월-일" min="1900-01-01" max="2023-12-19"/>
+                </li>
+            </ol>
+        </fieldset>
+        <fieldset>
+            <legend>코딩 숙력도(상,중,하)</legend>
+            <ol>
+                <li> <input type="range" min="0" max="3" value="1" list="markers" required/><br/>
+                    <datalist id="markers">
+                        <option value="0"></option>
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                    </datalist>
+                </li>
+            </ol>
+        </fieldset>
+    </form>
+</body>
+</html>
