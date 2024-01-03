@@ -3,7 +3,7 @@
 console.log(5 + 2, 5 - 2, 5 * 2, 5 / 2);    //+,-,*,/
 console.log(5 % 2);                         // modulo, 나머지
 console.log(2 ** 10);                       // 2의 10제곱, 1024(1k)
-console.log(1.3e-8;);                       // 1.3 * 10 ** -8
+console.log(1.3e-8);                       // 1.3 * 10 ** -8
 
 // 2. 문자열(string)
 console.log('He said "I love you."');       //console.log("He said \ "I love you.\""); //escaping
