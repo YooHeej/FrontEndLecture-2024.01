@@ -20,5 +20,5 @@ console.log(52 == '52', 52 == 52.0);
 console.log(true == 1, false == 0.0);
 
 // 2) 변환된 값과 자료형이 일치하면 참. (===)
-console.log(52 == '52', 52 == 52.0);
-console.log(true == 1, false == 0.0);
+console.log(52 === '52', 52 === 52.0);
+console.log(true === 1, false === 0.0);
