@@ -6,7 +6,7 @@ while (i < person.length) {
     console.log(person[1]);
     i++;
 }
-/* 
+
 let sum = 0;
 while (sum <= 21) {
     let dice = Math.ceil(Math.random()*6);
@@ -15,4 +15,3 @@ while (sum <= 21) {
 }
 console.log(sum);
 
- */
