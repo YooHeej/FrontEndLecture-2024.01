@@ -20,7 +20,7 @@ let evenSum = 0;
 for(let i = 2; i <= 1000; i += 2) {
     evenSum += i;
 }
-console.log(`1에서 1000까지 홀수 합은 ${evenSum}`);
+console.log(`1에서 1000까지 짝수 합은 ${evenSum}`);
 
 
 // 1에서 10까지 곱 구하기
