@@ -25,8 +25,19 @@ console.log(`올해 만 나이는 ${age} 입니다.`);
 
 // 2 //
 
-
-
+function isDivisible(year) {
+    let Y1 = year + 1;
+    let Yr = year - 2000;
+    
+    if (Y1 % Yr == 0 )
+        console.log(year + "년 = " + "Good");
+        else
+            console.log(year + "년 = " + "Bye");
+    }
+    
+    for (i = 2023; i <=2040; i++) {
+        isDivisible(i);
+    }
 
 
 
