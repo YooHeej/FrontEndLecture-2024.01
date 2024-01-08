@@ -61,8 +61,9 @@ function isPalindrome(num) {
 // 4. C:/Workspace/WebProject/03.JavaScript/ch07.표준내장객체/04.String연습.js
 // 에서 파일명(04.String연습.js)만 출력하세요.
 
-let file = ['C:/','Workspace/','WebProject/','03.JavaScript/','ch07.표준내장객체/','04.String연습.js'];
-file.reverse();
-console.log(file.slice(0,1));
+let file = `C:/Workspace/WebProject/03.JavaScript/ch07.표준내장객체/04.String연습.js`;
+let file2 = file.split('/');
+console.log(file2.slice(5,6));
 
-let file2 =[`C:/Workspace/WebProject/03.JavaScript/ch07.표준내장객체/04.String연습.js`];
+file2.reverse();
+console.log(file2.slice(0,1));

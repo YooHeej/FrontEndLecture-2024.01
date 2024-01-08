@@ -19,6 +19,8 @@ else if (score >= 60)
 else
     grade = 'F';
 
+console.log(`점수 : ${score} - 학점 : ${grade}`);
+
 // FizzBuzz //
 if (score % 35 == 0)        // or (score % 5 == 0 && score % 7 ==0)
     console.log(`FizzBuzz`);
