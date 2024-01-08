@@ -25,4 +25,44 @@ for (let i = 0; i < numStr.length; i++) {
 console.log(countArr);
 
 // 2. 디지털 시계, 00:00 ~ 23:59
-// 
+// 하루 동안 3이 표시되는 시간은 몇 초인가?
+
+let H = 0;
+for (i = 0; i <= 23; i++) {
+   if(i % 10 ==3)
+   H += 60*60 - 60*3;
+}
+
+let M = 0;
+for (j = 0; j <= 59; j++) {
+    if(j % 10 == 3)
+    M += 60;
+}
+
+console.log(H + M);
+
+
+// 3. 두 개의 세 자리수를 곱해서 나온 결과가 palindrome일때
+// 가장 큰 palindrome 수와 어떤 수를 곱해서 나온 결과인가?
+
+let num = 100;
+for (num = 100; num < 1000; num++) {
+
+}
+
+function isPalindrome(num) {
+    let reverseNum = num.split('').reverse().join('');
+    return num = reverseNum;
+}
+
+
+
+
+// 4. C:/Workspace/WebProject/03.JavaScript/ch07.표준내장객체/04.String연습.js
+// 에서 파일명(04.String연습.js)만 출력하세요.
+
+let file = ['C:/','Workspace/','WebProject/','03.JavaScript/','ch07.표준내장객체/','04.String연습.js'];
+file.reverse();
+console.log(file.slice(0,1));
+
+let file2 =[`C:/Workspace/WebProject/03.JavaScript/ch07.표준내장객체/04.String연습.js`];
