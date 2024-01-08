@@ -14,4 +14,4 @@ for (j = 0; j <= 59; j++) {
 
 console.log(h);
 console.log(M);
-console.log(h + M - 10800);
+console.log(h + M - 648000);
