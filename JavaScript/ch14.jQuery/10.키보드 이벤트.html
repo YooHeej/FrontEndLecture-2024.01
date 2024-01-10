@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jQuery 키보드 이벤트</title>
+    <title>키보드 이벤트</title>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="crossorigin="anonymous"></script>
     <script>
         $(document).ready(() => {
             $('input')
-                .on('keypu', function(e) {
-                    $('#keyup'). text($(this).val());        // 글자를 입력할 때 마다
+                .on('keyup', function(e) {
+                    $('#keyup').text($(this).val());        // 글자를 입력할 때 마다
                 })
                 .on('change', function(e) {
-                    $('#change'). text($(this).val());      // 엔터키를 쳤을 때
+                    $('#change').text($(this).val());      // 엔터키를 쳤을 때
                 })
         });
     </script>
