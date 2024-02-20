@@ -20,7 +20,7 @@
         }
 
         td {
-            height: 120px;
+            text-align: center;
         }
     </style>
     <script>
@@ -49,9 +49,7 @@
                         <li><a class="dropdown-item" href="#">Link 1</a></li>
                         <li><a class="dropdown-item" href="#">Link 2</a></li>
                         <li><a class="dropdown-item" href="#">Link 3</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
+                        <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="#">Another link</a></li>
                     </ul>
                 </li>
@@ -79,7 +77,7 @@
                     <i class="fa-brands fa-github me-2"></i><a href="#"></a><br>
                     <i class="fa-brands fa-instagram me-2"></i><a href="#"></a><br>
                     <i class="fa-solid fa-location-dot me-2"></i> 수원시 팔달구
-                    <a href="#"><span class="badge bg-secondary">날씨</span></a><br>
+                        <a href="#"><span class="badge bg-secondary">날씨</span></a><br>
                     <button class="btn btn-sm btn-outline-primary mt-3">Edit Profile</button>
                 </div>
             </div>
@@ -90,19 +88,19 @@
                     <div class="col-1"></div>
                     <div class="col-10">
                         <form action="/board/write" method="post" enctype="multipart/form-data">
-                            <table class="table table-dorderless">
+                            <table class="table table-borderless">
                                 <tr>
-                                    <td><label class='col-form-lable'>제목</label></td>
+                                    <td><label class='col-form-label'>제목</label></td>
                                     <td><input type="text" name="title" class="form-control"></td>
                                 </tr>
                                 <tr>
-                                    <td><label class='col-form-lable'>본문</label></td>
+                                    <td><label class='col-form-label'>본문</label></td>
                                     <td><textarea name="content" id="content" rows="10" class="form-control">
                                         이 영역이 CK Editor가 작동하는 영역입니다.
                                     </textarea></td>
                                 </tr>
                                 <tr>
-                                    <td><label class="col-form-lable">첨부</label></td>
+                                    <td><label class="col-form-label">첨부</label></td>
                                     <td><input type="file" name="file" class="form-control" multiple></td>
                                 </tr>
                                 <tr>
@@ -119,6 +117,7 @@
             </div>
         </div>
     </div>
+
     <nav class="navbar navbar-expand-sm bg-light fixed-bottom">
         <div class="container-fluid justify-content-center">
             <span class="navbar-text">
